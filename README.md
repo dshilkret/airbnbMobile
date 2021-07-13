@@ -7,22 +7,13 @@ For practicing to create a mockup and build the app following the mockup.
 
 # UI Design
 I created UI design with [figma](https://www.figma.com/design/).
+## Mobile version
+[!Mobile](./img/mobile.png)
+## iPad version
+[!iPad](./img/iPad.png)
 
 # Languages
 - React
-
-# Roles
-## Danny Lee:
-- Log In system
-- Search bar
-- Header
-
-## Shiori Suzuki:
-- Footer
-- Top page
-- Context API
-- Detail page
-- Checkout page
 
 # References
 [rapid API](https://rapidapi.com/apidojo/api/hotels4/)
