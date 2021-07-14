@@ -1,6 +1,6 @@
 import React from 'react';
-import { googleProvider } from '../AuthMethod';
-import socialMediaAuth from '../Authentication';
+import { googleProvider } from '../../AuthMethod';
+import socialMediaAuth from '../../Authentication';
 
 
 export default function SignIn() {

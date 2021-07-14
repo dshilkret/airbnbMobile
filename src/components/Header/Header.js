@@ -1,35 +1,36 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+
+import Logo from '../../logo/logo_transparent.png';
 import SearchIcon from '@material-ui/icons/Search';
 import LanguageIcon from '@material-ui/icons/Language';
 import ExpandMore from '@material-ui/icons/ExpandMore';
 import { IconButton } from '@material-ui/core';
-import Signin from './SignIn';
+
+import SignIn from './SignIn';
 
 
 
 export default function Header() {
-
     
     return(
-        <Navbar className="header">
-        <Link to ="/">
-            <Image img src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png" />
-        </Link>
-        <Center>
-            <Input type="text" />
-        <SearchIcon />
-        </Center>
-        <Right className="header_right">
-        <IconButton>
-        <LanguageIcon />
-        </IconButton>
-        <IconButton>
-        <ExpandMore />
-        </IconButton>
-        <Signin />
-        </Right> 
+        <Navbar>
+            <Link to ="/">
+                <Image src={Logo} alt="banner" />
+            </Link>
+            <Center>
+                <Input type="text" />
+                <SearchIcon />
+            </Center>
+            <Right>
+                <IconButton>
+                    <LanguageIcon />
+                </IconButton>
+                <IconButton>
+                    <ExpandMore />
+                </IconButton>
+                <SignIn />
+            </Right> 
         </Navbar>
     );
 
@@ -56,27 +57,24 @@ const Center = styled.div`
     flex: 1;
     align-items: center;
     max-width: fit-content;
-    margin-left: 180px;
+    margin-left: 10vw;
     padding: 10px;
     height: 50px;
-    border: 1px solid lightgray;
+    border: 1px solid #6e6e6e;
     border-radius: 999px;
-`
+    &:focus {
+        border: 2px solid #3c3c3c;
+    }
+    `
 
 const Input = styled.input`
     outline: none;
-    &:focus {
-        border: none;
-        outline-width: 0;
-        padding: 8px;
-    }
-
+    border: none;
 `
 
 const Right = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 15vw;
-    margin-right: 100px;
+    margin-right: 2vw;
 `

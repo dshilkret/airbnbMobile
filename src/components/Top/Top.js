@@ -2,17 +2,15 @@ import Explore from './Explore';
 import TopFooter from './TopFooter';
 import { Link } from 'react-router-dom';
 
-import topImage from "./top-image.jpg";
 import experience from "./experience.jpg";
 import nearby from "./nearby.jpg";
 import hosting from "./hosting.jpg";
-import Banner from '../Banner';
+import Banner from '../Header/Banner';
 
 function Top() {
     return (
         <>
             <Banner />
-            <img src={topImage} width="100%" alt="top" />
             <Explore />
 
             <h2 className="m-3">Nearby</h2>

@@ -3,12 +3,12 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import Top from './components/Top/Top';
 import Detail from './components/Detail/Detail';
 import Footer from './components/Footer';
 import HotelProvider from './context/HotelContext';
-import SearchPage from './components/SearchPage';
+import SearchPage from './components/Search/SearchPage';
 import Checkout from './components/Checkout/Checkout';
 
 function App() {
@@ -17,11 +17,11 @@ function App() {
       <BrowserRouter class='App'>
         <Header />
         <Switch>
-          <Route path="/search">
-            <SearchPage />
-          </Route>
           <Route exact path='/'>
             <Top />
+          </Route>
+          <Route path="/search">
+            <SearchPage />
           </Route>
           <Route path='/Detail'>
             <Detail />

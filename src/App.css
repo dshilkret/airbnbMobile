@@ -1,3 +1,12 @@
 .App {
-    color: #2F2F2F;
+    
+    /* mobile */
+    @media screen and (max-width: 768px) {
+        margin: auto;
+    }
+    
+    /* tablet */
+    @media screen and (max-width: 1024px) {
+        margin: auto;
+    }
 }

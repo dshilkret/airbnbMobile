@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Set base css */
+@media screen and (max-width : 480px){
+	html,
+	body {
+		overflow-x: hidden;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+	}
+}
+@media screen and (max-width : 768px){
+	html,
+	body {
+		overflow-x: hidden;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+	}
+}
