@@ -14,7 +14,7 @@ import Checkout from './components/Checkout/Checkout';
 function App() {
   return (
     <HotelProvider>
-      <BrowserRouter class='App'>
+      <BrowserRouter>
         <Header />
         <Switch>
           <Route exact path='/'>

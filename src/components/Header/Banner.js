@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-
-import { Button } from '@material-ui/core';
 import { useHistory } from 'react-router-dom';
+
 import topImage from "../../img/top-image.jpg";
+import { Button } from '@material-ui/core';
 
 import Search from '../Search/Search';
 

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { useMediaQuery } from 'react-responsive';
 
 import Logo from '../../logo/logo_transparent.png';
 import SearchIcon from '@material-ui/icons/Search';
@@ -8,32 +9,38 @@ import ExpandMore from '@material-ui/icons/ExpandMore';
 import { IconButton } from '@material-ui/core';
 
 import SignIn from './SignIn';
-
-
+import Banner from '../Header/Banner';
+import MobileBanner from '../Header/MobileBanner';
 
 export default function Header() {
+    const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
     
-    return(
-        <Navbar>
-            <Link to ="/">
-                <Image src={Logo} alt="banner" />
-            </Link>
-            <Center>
-                <Input type="text" />
-                <SearchIcon />
-            </Center>
-            <Right>
-                <IconButton>
-                    <LanguageIcon />
-                </IconButton>
-                <IconButton>
-                    <ExpandMore />
-                </IconButton>
-                <SignIn />
-            </Right> 
-        </Navbar>
-    );
-
+    return (<>
+        {isMobile && <>
+                <MobileBanner />
+            </>}
+            {!isMobile && <>
+                <Navbar>
+                <Link to ="/">
+                    <Image src={Logo} alt="banner" />
+                </Link>
+                <Center>
+                    <Input type="text" />
+                    <SearchIcon />
+                </Center>
+                <Right>
+                    <IconButton>
+                        <LanguageIcon />
+                    </IconButton>
+                    <IconButton>
+                        <ExpandMore />
+                    </IconButton>
+                    <SignIn />
+                </Right> 
+            </Navbar>
+                <Banner />
+            </>}
+    </>)
 } 
 
 const Image = styled.img`
