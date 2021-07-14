@@ -12,7 +12,7 @@ function Footer() {
             <div className="container-fluid">
                 {isMobile && <>
                     <p className="mb-0 text-center">Copyright © 2021 SHIORI SUZUKI</p>
-                    <div className="row justify-content-between text-center">
+                    <div className="row justify-content-between text-center mb-4">
                         <div className="col">
                             <span className="px-2">Privacy</span>
                         </div>
