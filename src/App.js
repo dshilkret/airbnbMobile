@@ -1,7 +1,5 @@
-// import { useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 
 import Header from './components/Header/Header';
 import Top from './components/Top/Top';
@@ -20,21 +18,27 @@ function App() {
           <Route exact path='/'>
             <Header />
             <Top />
+            <Footer />
           </Route>
           <Route path="/search">
             <SearchPage />
+            <Footer />
           </Route>
           <Route path='/Detail'>
             <Detail />
+            <div className="mb-5">
+              <Footer />
+            </div>
           </Route>
           <Route path='/Confirm'>
             <Confirm />
+            <Footer />
           </Route>
           <Route path='/Checkout'>
             <Checkout />
+            <Footer />
           </Route>
         </Switch>
-        <Footer />
       </BrowserRouter>
     </HotelProvider>
   );

@@ -59,8 +59,8 @@ function Subdetail(props) {
                 {/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Confirmed!
                 </button> */}
-                <Link to="./Checkout" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Confirmed!
+                <Link to="./Checkout" className="btn btn-primary m-4 p-3 text-uppercase" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Confirmed
                 </Link>
             </div>
 

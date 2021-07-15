@@ -13,19 +13,25 @@ code {
 }
 
 /* Set base css */
-@media screen and (max-width : 480px){
+html,
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+/* @media screen and (max-width : 480px){
 	html,
 	body {
 		overflow-x: hidden;
 		overflow-y: scroll;
 		-webkit-overflow-scrolling: touch;
 	}
-}
-@media screen and (max-width : 768px){
+} */
+/* @media screen and (max-width : 768px){
 	html,
 	body {
 		overflow-x: hidden;
 		overflow-y: scroll;
 		-webkit-overflow-scrolling: touch;
 	}
-}
+} */
