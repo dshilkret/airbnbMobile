@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import SearchIcon from '@material-ui/icons/Search';
-import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 
 import { MdKeyboardArrowLeft } from 'react-icons/md'
@@ -10,9 +9,9 @@ export default function Searchbar() {
     return(<>
         { isMobile && <>
             <CenterMobile>
-                <Link to ="/" className="text-secondary h1 ml-5">
+                <div onClick={() => window.history.back()} className="text-secondary h1 ml-5">
                     <MdKeyboardArrowLeft />
-                </Link>
+                </div>
                 <Input type="text" />
                 <SearchIcon />
             </CenterMobile>

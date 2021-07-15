@@ -6,7 +6,7 @@ function TopFooter() {
     return (
         <>
         { isMobile && <>
-            <Background className="card-footer m-0 p-5">
+            <Background className="card-footer mt-5 p-5">
                         <h5 className="card-title">ABOUT</h5>
                         <ul>
                             <li>How Airbnb works</li>
@@ -36,7 +36,7 @@ function TopFooter() {
             </Background>
         </>}
         { !isMobile && <>
-            <Background className="container　m-0">
+            <Background className="mt-5">
                 <div className="row card-footer text-muted p-5">
                     <div className="col">
                         <h5 className="card-title">ABOUT</h5>

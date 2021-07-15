@@ -35,7 +35,7 @@ export default function SearchPage() {
                     </InfoBox>
                 </>}
                     
-                <Link to="./Detail" className="text-secondary">
+                <Link to="./Detail" className="text-secondary text-decoration-none">
                     <SearchResult
                     img="https://images.craigslist.org/00000_6VoxNNfDrgOz_0CI0nQ_600x450.jpg"
                     location="Private room in center of London"
@@ -46,7 +46,7 @@ export default function SearchPage() {
                     />
                 </Link>
 
-                <Link to="./Detail" className="text-secondary">
+                <Link to="./Detail" className="text-secondary text-decoration-none">
                     <SearchResult
                     img="https://images.craigslist.org/00F0F_citKiLbLZDez_0CI0nl_600x450.jpg"
                     location="Private room in center of London"
@@ -58,7 +58,7 @@ export default function SearchPage() {
                 </Link>
 
 
-                <Link to="./Detail" className="text-secondary">
+                <Link to="./Detail" className="text-secondary text-decoration-none">
                     <SearchResult
                     img="https://images.craigslist.org/00E0E_dUXn9qNwR3Hz_0CI0nK_600x450.jpg"
                     location="Private room in center of London"
@@ -69,7 +69,7 @@ export default function SearchPage() {
                     />
                 </Link>
 
-                <Link to="./Detail" className="text-secondary">
+                <Link to="./Detail" className="text-secondary text-decoration-none">
                     <SearchResult
                     img="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU"
                     location="Private room in center of London"
@@ -80,7 +80,7 @@ export default function SearchPage() {
                     />
                 </Link>
 
-                <Link to="./Detail" className="text-secondary">
+                <Link to="./Detail" className="text-secondary text-decoration-none">
                     <SearchResult
                     img="https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg"
                     location="Private room in center of London"
@@ -91,7 +91,7 @@ export default function SearchPage() {
                     />
                 </Link>
 
-                <Link to="./Detail" className="text-secondary">
+                <Link to="./Detail" className="text-secondary text-decoration-none">
                     <SearchResult
                     img="https://www.smartertravel.com/uploads/2017/07/Untitled-design-8.jpg"
                     location="Private room in center of London"
@@ -102,7 +102,7 @@ export default function SearchPage() {
                     />
                 </Link>
 
-                <Link to="./Detail" className="text-secondary">
+                <Link to="./Detail" className="text-secondary text-decoration-none">
                     <SearchResult
                     img="https://cdn.bisnow.net/fit?height=489&type=jpeg&url=https%3A%2F%2Fs3.amazonaws.com%2Fcdn.bisnow.net%2Fcontent%2Fimages%2F2017%2F05%2F59151d0978bbf_https_press_atairbnb_com_app_uploads_2016_12_midtown_4.jpeg&width=717&sign=FeltIPi9cOWA36nVIeDvZxwgtiCZrpUyMRdvyZviTUI"
                     location="Private room in center of London"
@@ -113,7 +113,7 @@ export default function SearchPage() {
                     />
                 </Link>
 
-                <Link to="./Detail" className="text-secondary">
+                <Link to="./Detail" className="text-secondary text-decoration-none">
                     <SearchResult
                     img="https://media.cntraveler.com/photos/5a8f258bd363c34048b35aac/master/w_2250,h_1500,c_limit/airbnb-plus-london.jpg"
                     location="Private room in center of London"
@@ -124,7 +124,7 @@ export default function SearchPage() {
                     />
                 </Link>
 
-                <Link to="./Detail" className="text-secondary">
+                <Link to="./Detail" className="text-secondary text-decoration-none">
                     <SearchResult
                     img="https://static.trip101.com/paragraph_media/pictures/001/676/061/large/969ae4bb-efd1-4fb9-a4e3-5cb3316dd3c9.jpg?1562227937"
                     location="Private room in center of London"
@@ -135,7 +135,7 @@ export default function SearchPage() {
                     />
                 </Link>
 
-                <Link to="./Detail" className="text-secondary">
+                <Link to="./Detail" className="text-secondary text-decoration-none">
                     <SearchResult
                     img="https://image.insider.com/585029a0dd0895bc548b4b8b?width=750&format=jpeg&auto=webp"
                     location="Private room in center of London"

@@ -13,7 +13,7 @@ function Nearby() {
                     <div className="row flex-nowrap overflow-auto">
                         <div className="col-8">
                             <div className="card">
-                                <Link to="/search" className="link-secondary">
+                                <Link to="/search" className="link-secondary text-decoration-none">
                                     <img src={nearby} className="card-img-top" alt="nearby" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -23,7 +23,7 @@ function Nearby() {
                         </div>
                         <div className="col-8">
                             <div className="card">
-                                <Link to="/search" className="link-secondary">
+                                <Link to="/search" className="link-secondary text-decoration-none">
                                     <img src={nearby} className="card-img-top" alt="nearby" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -33,7 +33,7 @@ function Nearby() {
                         </div>
                         <div className="col-8">
                             <div className="card">
-                                <Link to="/search" className="link-secondary">
+                                <Link to="/search" className="link-secondary text-decoration-none">
                                     <img src={nearby} className="card-img-top" alt="nearby" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -49,7 +49,7 @@ function Nearby() {
                     <div className="row flex-nowrap overflow-auto">
                         <div className="col-3">
                             <div className="card">
-                                <Link to="/search" className="link-secondary">
+                                <Link to="/search" className="link-secondary text-decoration-none">
                                     <img src={nearby} className="card-img-top" alt="nearby" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -59,7 +59,7 @@ function Nearby() {
                         </div>
                         <div className="col-3">
                             <div className="card">
-                                <Link to="/search" className="link-secondary">
+                                <Link to="/search" className="link-secondary text-decoration-none">
                                     <img src={nearby} className="card-img-top" alt="nearby" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -69,7 +69,7 @@ function Nearby() {
                         </div>
                         <div className="col-3">
                             <div className="card">
-                                <Link to="/search" className="link-secondary">
+                                <Link to="/search" className="link-secondary text-decoration-none">
                                     <img src={nearby} className="card-img-top" alt="nearby" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -79,7 +79,7 @@ function Nearby() {
                         </div>
                         <div className="col-3">
                             <div className="card">
-                                <Link to="/search" className="link-secondary">
+                                <Link to="/search" className="link-secondary text-decoration-none">
                                     <img src={nearby} className="card-img-top" alt="nearby" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -89,7 +89,7 @@ function Nearby() {
                         </div>
                         <div className="col-3">
                             <div className="card">
-                                <Link to="/search" className="link-secondary">
+                                <Link to="/search" className="link-secondary text-decoration-none">
                                     <img src={nearby} className="card-img-top" alt="nearby" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>

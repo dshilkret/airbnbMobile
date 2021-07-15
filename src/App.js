@@ -1,11 +1,12 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import HotelProvider from './context/HotelContext';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ScrollToTop from './ScrollToTop';
 
 import Header from './components/Header/Header';
 import Top from './components/Top/Top';
 import Detail from './components/Detail/Detail';
 import Footer from './components/Footer';
-import HotelProvider from './context/HotelContext';
 import SearchPage from './components/Search/SearchPage';
 import Confirm from './components/Checkout/Confirm';
 import Checkout from './components/Checkout/Checkout';
@@ -14,6 +15,7 @@ function App() {
   return (
     <HotelProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <Switch>
           <Route exact path='/'>
             <Header />

@@ -42,7 +42,7 @@ export default function SearchResult({
                         <h4 className="mb-4">{price}</h4>
                     </div>
                 </div>
-                <hr />
+                <hr className="m-4" />
             </SearchBodyMobile>
         </>}
         { !isMobile && <>
@@ -77,7 +77,7 @@ export default function SearchResult({
                                 fontWeight: '300',
                                 marginTop: '10px'
                         }}>{title}</h3>
-                        <p>____</p>
+                        <hr />
                         <p>{description}</p>
                     </div>
 

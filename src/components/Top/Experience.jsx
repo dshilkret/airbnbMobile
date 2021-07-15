@@ -13,7 +13,7 @@ function Experience() {
                     <div className="row flex-nowrap overflow-auto">
                         <div className="col-8">
                             <div className="card">
-                                <Link to="search" className="link-secondary">
+                                <Link to="search" className="link-secondary text-decoration-none">
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -24,7 +24,7 @@ function Experience() {
                         </div>
                         <div className="col-8">
                             <div className="card">
-                                <Link to="search" className="link-secondary">
+                                <Link to="search" className="link-secondary text-decoration-none">
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -35,7 +35,7 @@ function Experience() {
                         </div>
                         <div className="col-8">
                             <div className="card">
-                                <Link to="search" className="link-secondary">
+                                <Link to="search" className="link-secondary text-decoration-none">
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -46,7 +46,7 @@ function Experience() {
                         </div>
                         <div className="col-8">
                             <div className="card">
-                                <Link to="search" className="link-secondary">
+                                <Link to="search" className="link-secondary text-decoration-none">
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -57,7 +57,7 @@ function Experience() {
                         </div>
                         <div className="col-8">
                             <div className="card">
-                                <Link to="search" className="link-secondary">
+                                <Link to="search" className="link-secondary text-decoration-none">
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -68,7 +68,7 @@ function Experience() {
                         </div>
                         <div className="col-8">
                             <div className="card">
-                                <Link to="search" className="link-secondary">
+                                <Link to="search" className="link-secondary text-decoration-none">
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -85,7 +85,7 @@ function Experience() {
                     <div className="row flex-nowrap overflow-auto">
                         <div className="col-3">
                             <div className="card">
-                                <Link to="search" className="link-secondary">
+                                <Link to="search" className="link-secondary text-decoration-none text-decoration-none">
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -96,7 +96,7 @@ function Experience() {
                         </div>
                         <div className="col-3">
                             <div className="card">
-                                <Link to="search" className="link-secondary">
+                                <Link to="search" className="link-secondary text-decoration-none">
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -107,7 +107,7 @@ function Experience() {
                         </div>
                         <div className="col-3">
                             <div className="card">
-                                <Link to="search" className="link-secondary">
+                                <Link to="search" className="link-secondary text-decoration-none">
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -118,7 +118,7 @@ function Experience() {
                         </div>
                         <div className="col-3">
                             <div className="card">
-                                <Link to="search" className="link-secondary">
+                                <Link to="search" className="link-secondary text-decoration-none">
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -129,7 +129,7 @@ function Experience() {
                         </div>
                         <div className="col-3">
                             <div className="card">
-                                <Link to="search" className="link-secondary">
+                                <Link to="search" className="link-secondary text-decoration-none">
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
@@ -140,7 +140,7 @@ function Experience() {
                         </div>
                         <div className="col-3">
                             <div className="card">
-                                <Link to="search" className="link-secondary">
+                                <Link to="search" className="link-secondary text-decoration-none">
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
