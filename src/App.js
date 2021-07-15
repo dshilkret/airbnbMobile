@@ -9,15 +9,16 @@ import Detail from './components/Detail/Detail';
 import Footer from './components/Footer';
 import HotelProvider from './context/HotelContext';
 import SearchPage from './components/Search/SearchPage';
+import Confirm from './components/Checkout/Confirm';
 import Checkout from './components/Checkout/Checkout';
 
 function App() {
   return (
     <HotelProvider>
       <BrowserRouter>
-        <Header />
         <Switch>
           <Route exact path='/'>
+            <Header />
             <Top />
           </Route>
           <Route path="/search">
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path='/Detail'>
             <Detail />
+          </Route>
+          <Route path='/Confirm'>
+            <Confirm />
           </Route>
           <Route path='/Checkout'>
             <Checkout />

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import experience from "./experience.jpg";
 
 function Experience() {
-    const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
+    const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
     return(
         <>
             <h2 className="m-3">Experience</h2>
@@ -17,7 +17,7 @@ function Experience() {
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural.</p>
                                     </div>
                                 </Link>
                             </div>
@@ -28,7 +28,7 @@ function Experience() {
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural.</p>
                                     </div>
                                 </Link>
                             </div>
@@ -39,7 +39,7 @@ function Experience() {
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural.</p>
                                     </div>
                                 </Link>
                             </div>
@@ -50,7 +50,7 @@ function Experience() {
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural.</p>
                                     </div>
                                 </Link>
                             </div>
@@ -61,7 +61,7 @@ function Experience() {
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural.</p>
                                     </div>
                                 </Link>
                             </div>
@@ -72,7 +72,7 @@ function Experience() {
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural.</p>
                                     </div>
                                 </Link>
                             </div>
@@ -89,7 +89,7 @@ function Experience() {
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural.</p>
                                     </div>
                                 </Link>
                             </div>
@@ -100,7 +100,7 @@ function Experience() {
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural.</p>
                                     </div>
                                 </Link>
                             </div>
@@ -111,7 +111,7 @@ function Experience() {
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural.</p>
                                     </div>
                                 </Link>
                             </div>
@@ -122,7 +122,7 @@ function Experience() {
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural.</p>
                                     </div>
                                 </Link>
                             </div>
@@ -133,7 +133,7 @@ function Experience() {
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural.</p>
                                     </div>
                                 </Link>
                             </div>
@@ -144,7 +144,7 @@ function Experience() {
                                     <img src={experience} className="card-img-top" alt="experience" />
                                     <div className="card-body">
                                     <h5 className="card-title">Outdoor getaways</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural.</p>
                                     </div>
                                 </Link>
                             </div>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import nearby from "./nearby.jpg";
 
 function Nearby() {
-    const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
+    const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
     return(
         <>
             <h2 className="m-3">Nearby</h2>

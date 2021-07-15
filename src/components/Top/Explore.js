@@ -3,7 +3,7 @@ import { useMediaQuery } from 'react-responsive';
 import exploreIcon from "./exploreIcon.jpg";
 
 const Explore = () => {
-    const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
+    const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
     return (
         <>
             <h2 className="m-3">Explore nearby</h2>
