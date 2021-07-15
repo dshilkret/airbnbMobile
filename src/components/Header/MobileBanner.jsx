@@ -8,7 +8,7 @@ import topImage from "../../img/top-image.jpg";
 export default function Banner() {
     return (
         <Body>
-            <Bar>
+            <Bar className="mt-3 mx-auto">
                 <Searchbar />
             </Bar>
         </Body>
@@ -23,6 +23,5 @@ const Body = styled.div`
     background: content-box center/100% no-repeat url(${topImage});
 `
 const Bar = styled.div`
-    margin-top: 20px;
-    margin-right: 20px;
+    width: 100%;
 `
