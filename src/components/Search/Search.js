@@ -1,17 +1,14 @@
 import React, { useEffect, useState }from "react";
 import styled from "styled-components";
 import 'react-dates/initialize';
-import { DateRangePicker, SingleDatePicker, DayPickerRangeController } from 'react-dates';
+import { DateRangePicker } from 'react-dates';
 import 'react-dates/lib/css/_datepicker.css';
 
-import { useHistory } from "react-router-dom";
 import moment from "moment";
 
 
 
 export default function Search() {
-
-    const history = useHistory();
     const [ startDate, setStartDate ] = useState(moment());
     const [ endDate, setEndDate ] = useState(moment().add(3, "days"));
     const [ focusedInput, setFocusedInput ] = useState(null)
