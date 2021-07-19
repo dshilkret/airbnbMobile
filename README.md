@@ -11,6 +11,8 @@ I created UI design with [figma](https://www.figma.com/design/).
 ![Mobile](./src/img/mobile.png)
 ## iPad version
 ![iPad](./src/img/iPad.png)
+## Desktop version
+![Desktop](./src/img/desktop.png)
 
 # Languages
 - React
